@@ -1,0 +1,1 @@
+RUSTFLAGS=--cfg=web_sys_unstable_apis WASM_BINDGEN_WEAKREF=1 wasm-pack build --target web --release
